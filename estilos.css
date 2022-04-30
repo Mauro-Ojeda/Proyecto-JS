@@ -1,0 +1,171 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, #030742), color-stop(50%, black), color-stop(98%, #030742));
+  background: linear-gradient(90deg, #030742 2%, black 50%, #030742 98%);
+}
+.btn-danger{
+  margin-right:10px;
+}
+.btn-primary{
+  margin-right:10px;
+}
+.signo{
+  margin-left:10px;
+}
+.mbtm{
+  margin-bottom: 10px;
+}
+#cantidadInput{
+  width: 30px;
+}
+.cantidadText{
+  width: 30px;
+}
+#botonDeBuscar {
+  margin: 1rem;
+}
+.imagenCarrito{
+  width: 10rem;
+}
+.btnHov {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-transition: background 1s ease-in;
+  transition: background 1s ease-in;
+}
+.btnHov:hover {
+  background: #0000;
+}
+.tranf {
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  margin: 1rem;
+}
+.tranf:hover {
+  -webkit-transform: translatex(1rem);
+          transform: translatex(1rem);
+}
+#nav1 {
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, black), color-stop(50%, #0d18aa), color-stop(98%, black));
+  background: linear-gradient(90deg, black 2%, #0d18aa 50%, black 98%);
+  border-bottom: 2px solid #000;
+}
+ul a::first-letter {
+  color: white;
+  font-size: 1rem;
+}
+#navColor:active {
+  color: #030742;
+}
+.text-center {
+  color: whitesmoke;
+  padding-top: 1rem;
+}
+#scaY {
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+}
+#scaY:hover {
+  -webkit-transform: translateY(0.2rem);
+          transform: translateY(0.2rem);
+}
+#carta {
+  width: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+}
+.badge{
+  background-color:#030742 ;
+  color: white;
+}
+.colorBG{
+  background-color:#030742 ;
+}
+.card-img-top {
+  width: 10rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  cursor: pointer;
+}
+#contenedorDeCards {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+h4 {
+  font-size: 1rem;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.subCrece:hover {
+  font-size: 1.5rem;
+  color: #0d18aa;
+  text-decoration: none;
+}
+.btnComprar {
+  background-color: #030742;
+}
+.btn-success {
+  -webkit-transition: background 2s ease-in;
+  transition: background 2s ease-in;
+}
+.btn-success:hover {
+  background: #331bd3;
+}
+.btnHov {
+  background-color: #030742;
+}
+.pp {
+  color: white;
+  margin: 1rem;
+}
+.imgMarc {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+  list-style: none;
+}
+footer ul li {
+  display: inline-block;
+  padding-top: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer ul li a {
+  font-size: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: inline-block;
+}
+@media only screen and (max-width: 480px) {
+  .mobp {
+    margin: 1.5rem;
+  }
+}
